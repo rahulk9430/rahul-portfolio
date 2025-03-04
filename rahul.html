@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Rahul</title>
+  <link rel="icon" href="profile.jpg" type="image/x-icon" />
+  <!-- Include Font Awesome for icons (if not already added) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="rahul.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <div class="brand">
+        <a href="#">MyPortfolio</a>
+      </div>
+      <!-- Hamburger icon for mobile -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Hi, I'm Rahul</h1>
+        <p class="subtitle">Software Engineer at Sopra Steria</p>
+        <!-- Typewriter animated texts -->
+        <p class="typewriter" id="line1"></p>
+        <p class="typewriter" id="line2"></p>
+        <button onclick="window.location.href='#projects'">View My Work</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 class="section-title">My Technical Skills</h2>
+    <div class="skills-container">
+      <!-- Skill Card 1 -->
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="icons/java.png" alt="Java Icon" />
+        </div>
+        <h3 class="skill-title">Java</h3>
+        <p class="skill-description">Experienced in core Java, OOP concepts, collections, and more.</p>
+      </div>
+      <!-- Skill Card 2 -->
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="icons/spring.png" alt="Spring Boot Icon" />
+        </div>
+        <h3 class="skill-title">Spring Boot</h3>
+        <p class="skill-description">Building REST APIs, microservices, and enterprise-level applications.</p>
+      </div>
+      <!-- Skill Card 3 -->
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="icons/angular.png" alt="Angular Icon" />
+        </div>
+        <h3 class="skill-title">Angular</h3>
+        <p class="skill-description">Developing dynamic single-page applications and front-end architectures.</p>
+      </div>
+      <!-- Skill Card 4 -->
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="icons/react.png" alt="React Icon" />
+        </div>
+        <h3 class="skill-title">React</h3>
+        <p class="skill-description">Building reusable UI components and state management with React.</p>
+      </div>
+      <!-- Skill Card 5 -->
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="icons/my-sql.png" alt="MySQL Icon" />
+        </div>
+        <h3 class="skill-title">MySQL</h3>
+        <p class="skill-description">Skilled in relational database design, queries, and optimization.</p>
+      </div>
+      <!-- Skill Card 6 -->
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="icons/hibernate.png" alt="Hibernate Icon" />
+        </div>
+        <h3 class="skill-title">Hibernate</h3>
+        <p class="skill-description">Experience in ORM mappings, HQL, and integrating with Spring.</p>
+      </div>
+      <!-- Skill Card 7 -->
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="icons/microservice.png" alt="Microservices Icon" />
+        </div>
+        <h3 class="skill-title">Microservices</h3>
+        <p class="skill-description">Building distributed, scalable systems using microservice architecture.</p>
+      </div>
+      <!-- Skill Card 8 -->
+      <div class="skill-card">
+        <div class="skill-icon">
+          <img src="icons/pa.png" alt="Power Automate Icon" />
+        </div>
+        <h3 class="skill-title">Power Automate</h3>
+        <p class="skill-description">Automating workflows and enhancing process efficiency.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-container">
+      <!-- Project Card 1: Mail Merge Pro Tool -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-logo">
+            <img src="icons/sopra.png" alt="Sopra Steria Logo" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Mail Merge Pro Tool (Send Bulk Email)</h3>
+            <p class="project-duration">Mar 2024 - Mar 2024</p>
+            <p class="project-associated">Associated with Sopra Steria</p>
+          </div>
+        </div>
+        <div class="project-description">
+          <p>
+            It's all about making it super easy to send lots of personalized emails at once. Here’s what it does:
+          </p>
+          <ul>
+            <li><strong>Sends Many Emails Quickly</strong>: Sends bulk personalized emails effortlessly.</li>
+            <li><strong>Uses Excel for Details</strong>: Imports email details from an Excel sheet.</li>
+            <li><strong>Word Documents for Emails</strong>: Replaces placeholders in Word documents to personalize emails.</li>
+            <li><strong>Looks Good on Any Device</strong>: Converts Word docs to HTML ensuring responsiveness.</li>
+            <li><strong>Built with Java & Spring Boot</strong>: Ensures robust performance and scalability.</li>
+          </ul>
+          <p>
+            This project elevates business communications by automating personalized interactions at scale.
+          </p>
+          <p class="project-skills">
+            <strong>Skills:</strong> Spring Boot, Core Java, Email Management, Email Marketing Software, Mail Merge
+          </p>
+          <p class="project-hashtags">
+            #Tech #Emails #Java #SpringBoot #PersonalizedEmails #Emailmarketing #Bulkmailsender #MailMergePro #Tool #Mailmergetool
+          </p>
+        </div>
+      </div>
+      
+      <!-- Project Card 2: Exam Portal System -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-logo">
+            <img src="icons/patliputra.png" alt="Patliputra University Logo" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Exam Portal System</h3>
+            <p class="project-duration">May 2023 - Jun 2023</p>
+            <p class="project-associated">Associated with Patliputra University</p>
+          </div>
+        </div>
+        <div class="project-description">
+          <p>
+            A web-based application designed to facilitate efficient and secure management of examinations.
+          </p>
+          <ul>
+            <li>Robust user authentication using Angular, Spring Boot, and JWT.</li>
+            <li>User-friendly interface for exam scheduling and management.</li>
+            <li>CRUD operations for quizzes and questions.</li>
+            <li>Personalized dashboards for students.</li>
+            <li>Technologies: Spring Boot, Angular, MySQL, Angular Materials.</li>
+          </ul>
+          <p class="project-skills">
+            <strong>Skills:</strong> Spring Boot, MySQL, HTML, Angular, Java
+          </p>
+          <p class="project-links">
+            <strong>GitHub:</strong>
+            <a href="https://rb.gy/4mr28" target="_blank">Backend</a> |
+            <a href="https://rb.gy/4mr28" target="_blank">Frontend</a>
+          </p>
+        </div>
+      </div>
+      
+      <!-- Project Card 3: Traffic Surveillance System -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-logo">
+            <img src="icons/sopra.png" alt="Sopra Steria Logo" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Traffic Surveillance System</h3>
+            <p class="project-duration">Apr 2023 - Jun 2023</p>
+            <p class="project-associated">Associated with Sopra Steria</p>
+          </div>
+        </div>
+        <div class="project-description">
+          <p>
+            An advanced web application for managing road information and real-time traffic surveillance.
+          </p>
+          <ul>
+            <li>CRUD operations for road management.</li>
+            <li>Features for data simulation, time period fetching, and occupancy display.</li>
+            <li>Technologies: Spring Boot, Angular, MySQL.</li>
+          </ul>
+          <p class="project-skills">
+            <strong>Skills:</strong> Spring Boot, MySQL, Angular Material, Angular
+          </p>
+          <p class="project-links">
+            <strong>GitHub:</strong>
+            <a href="https://shorturl.at/brtAI" target="_blank">View Project</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-container">
+      <div class="experience-card">
+        <div class="experience-card-header">
+          <img src="icons/sopra.png" alt="Sopra Steria Logo" class="company-logo" />
+          <div>
+            <h3>Sopra Steria</h3>
+            <p class="tenure">2 yrs 7 mos</p>
+            <p class="location">Noida, Uttar Pradesh, India</p>
+            <p class="linkedin-mention">helped me get this job</p>
+          </div>
+        </div>
+        <div class="role-section">
+          <div class="role-bullet"></div>
+          <div class="role-details">
+            <h4>Software Engineer</h4>
+            <p>Full-time</p>
+            <p>Jul 2024 - Present · 9 mos</p>
+            <p>Hybrid</p>
+          </div>
+        </div>
+        <div class="role-section">
+          <div class="role-bullet"></div>
+          <div class="role-details">
+            <h4>Trainee Junior Engineer</h4>
+            <p>Apprenticeship</p>
+            <p>Sep 2022 - Jul 2024 · 1 yr 11 mos</p>
+            <p>On-site</p>
+          </div>
+        </div>
+        <p class="additional-skills">Interpersonal Communication, AngularJS, +11 skills</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <div class="about-card">
+        <div class="about-content">
+          <div class="about-image">
+            <img src="profile.jpg" alt="Profile Picture" />
+          </div>
+          <div class="about-text">
+            <p>
+              I am a Software Engineer at Sopra Steria, a leading IT consulting and services company.
+              I have been involved in developing and testing various software applications using Java,
+              Spring Boot, Hibernate, MySQL, Angular, HTML, CSS, and Wordpress. I have also contributed
+              to improving the quality, performance, and security of the codebase, as well as resolving bugs and issues.
+            </p>
+            <p>
+              I have completed my Master of Computer Applications (MCA) from Patliputra University, with a focus on Computer Science.
+              I have a Bachelor of Computer Applications (BCA) from the same university, specializing in Computer Programming.
+              I have a strong foundation in Java and a diverse set of skills in web development, database management, and software engineering.
+              I am passionate about learning new technologies and solving complex problems with innovative solutions.
+            </p>
+            <p>
+              My goal is to become a successful and versatile software developer, delivering high-quality products and services to clients and users.
+              I am looking for opportunities to expand my knowledge, skills, and network in the world of software development.
+              As a dedicated team player, I value collaboration, feedback, and continuous improvement.
+              I’m eager to connect with professionals and explore the endless possibilities that technology offers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-container">
+      <div class="contact-card">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          </div>
+          <div class="button-group">
+            <button type="submit" class="btn-submit">Send Message</button>
+            <button type="reset" class="btn-reset">Reset</button>
+          </div>
+        </form>
+        <div class="social-links">
+          <p>Connect with me:</p>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/rahulmca2310/" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/youtuberrahulk" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="education-container">
+      <!-- Card 1: MCA at Patliputra University -->
+      <div class="education-card">
+        <div class="education-card-header">
+          <div class="education-logo">
+            <img src="icons/patliputra.png" alt="Patliputra University Logo" />
+          </div>
+          <div class="education-info">
+            <h3>Patliputra University</h3>
+            <p class="degree">Master of Computer Applications - MCA, Computer Science</p>
+            <p class="duration">Dec 2021 - Nov 2023</p>
+            <p class="grade">Grade: CGPA : 8.19</p>
+            <p class="skills">Skills: Communication · Microsoft Excel · VBA Excel · Java · Spring Boot · Angular</p>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Card 2: BCA at Patliputra University -->
+      <div class="education-card">
+        <div class="education-card-header">
+          <div class="education-logo">
+            <img src="icons/patliputra.png" alt="Patliputra University Logo" />
+          </div>
+          <div class="education-info">
+            <h3>Patliputra University</h3>
+            <p class="degree">BCA, Computer Programming/Programmer, General</p>
+            <p class="duration">Jun 2018 - Dec 2021</p>
+            <p class="grade">Grade: 1st Division</p>
+          </div>
+         
+        </div>
+      </div>
+      <!-- Card 3: Intermediate of Science at BSEB -->
+      <div class="education-card">
+        <div class="education-card-header">
+          <div class="education-logo">
+            <img src="icons/bseb.png" alt="BSEB Logo" />
+          </div>
+          <div class="education-info">
+            <h3>Bihar School Examination Board (BSEB)</h3>
+            <p class="degree">Intermediate of Science, Mathematics</p>
+            <p class="duration">Jun 2015 - Apr 2017</p>
+            <p class="grade">Grade: 1st Division</p>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Card 4: Matric at BSEB -->
+      <div class="education-card">
+        <div class="education-card-header">
+          <div class="education-logo">
+            <img src="icons/bseb.png" alt="BSEB Logo" />
+          </div>
+          <div class="education-info">
+            <h3>Bihar School Examination Board (BSEB)</h3>
+            <p class="degree">Matric, Mathematics</p>
+            <p class="duration">Jun 2013 - May 2015</p>
+            <p class="grade">Grade: 1st Division</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer">
+    <p>© 2025 Rahul. All rights reserved.</p>
+  </footer>
+
+  <script src="rahul.js"></script>
+  <!-- Responsive Navigation Toggle Script -->
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-active');
+    });
+  </script>
+</body>
+</html>
